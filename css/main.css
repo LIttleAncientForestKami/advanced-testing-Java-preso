@@ -73,15 +73,18 @@ ul.small-unordered-list li {
 /* obrazki */
 img {
   display: block;
-/*  width: 900px;
-  height: 700px;
-commented as temporary relief for books images
- */
+}
+
+.AlignedToRightAndSmall {
+  font-size: 28px;
+  text-align: end;
 }
 
 
-
-
+#overview .step {
+  opacity: 1;
+  cursor: pointer;
+}
 
 /* borrowed from original impress.js demo style */
 .step {
@@ -99,11 +102,6 @@ commented as temporary relief for books images
     font-family: 'PT Serif', georgia, serif;
     font-size: 48px;
     line-height: 1.5;
-}
-
-/* my own addition for better images in booklet */
-section#why-measure.step {
-  width: 1000px;
 }
 
 
