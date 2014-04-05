@@ -75,11 +75,16 @@ img {
   display: block;
 }
 
-.AlignedToRightAndSmall {
+.alignedToRightAndSmall {
   font-size: 28px;
   text-align: end;
 }
 
+.cause {
+  font-size: 40px;
+  font-style: oblique;
+  font-weight: lighter;
+}
 
 #overview .step {
   opacity: 1;
