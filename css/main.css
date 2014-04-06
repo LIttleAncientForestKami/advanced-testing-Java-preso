@@ -91,6 +91,21 @@ img {
   cursor: pointer;
 }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: white;
+  border: solid 1px #666;
+  width: 100%;
+}
+/* footer margin */
+body {
+  margin-bottom: 120px;
+}
+
+
 /* borrowed from original impress.js demo style */
 .step {
     position: relative;
@@ -145,4 +160,3 @@ img {
     display: none;
 }
 /* borrowed section end */
-
