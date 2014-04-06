@@ -399,7 +399,8 @@
             
             initialized = true;
             
-            triggerEvent(root, "impress:init", { api: roots[ "impress-root-" + rootId ] });
+            // TJB: patched per https://github.com/m42e/impress.js-progress
+            triggerEvent(root, "impress:init", { api: roots[ "impress-root-" + rootId ], steps: steps });
         };
         
         // `getStep` is a helper function that returns a step element defined by parameter.
