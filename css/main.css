@@ -52,6 +52,14 @@ blockquote p {
   background: url(../img/quote_down.png) bottom right no-repeat;
 }
 
+blockquote li {
+  color: orange;
+}
+
+blockquote ul {
+  padding: 5px;
+}
+
 blockquote {
   padding: 25px;
   font-size: 22px;    

@@ -30,17 +30,18 @@ Co planuję tu zawrzeć:
 -->
 
 
-<section id="start" class="step">
+<section id="start" data-y="200" class="step">
   <h1 id="presentation_title">Zaawansowane testowanie - o doborze narzędzi</h1>
-  <p>Płytka demonstracja by zaciekawić</p>
+  <p>Powierzchowny przegląd by zaciekawić</p>
 </section>
 
-<section class="step essence" data-rotate-x="90">
+<section class="step essence" data-y="200" data-rotate-x="90">
   <strong class="red">NIE tykaj P...Mocka.</strong>
 </section>
 
-<section class="step essence" data-rotate-x="90" data-rotate-y="90">
-  Gwarantuję, ktoś przed Tobą borykał się z tym problemem.
+<section class="step essence" data-y="200" data-rotate-x="90" data-rotate-y="90">
+  <blockquote>Gwarantuję, ktoś przed Tobą borykał się z tym problemem.</blockquote>
+  <cite>autor niniejszej prezentacji</cite>
 </section>
 
 <section class="step essence" data-z="-1000" data-rotate-x="270">
@@ -56,7 +57,7 @@ Co planuję tu zawrzeć:
 </section>
 
 
-<section id="NIE" class="step" data-y="-900" data-z="500" data-rotate-z="90">
+<section id="NIE" class="step" data-y="-900" data-z="500" data-rotate-z="180">
   O czym tu <strong class="red">NIE</strong> będzie?
   <ol>
     <li>o testach wydajności, niezawodności itp.</li>
@@ -65,14 +66,14 @@ Co planuję tu zawrzeć:
 </section>
 
 
-<section id="agenda" class="step" data-y="-200" data-z="500">
+<section id="agenda" class="step" data-z="500">
   <strong class="red">O czym tu będzie?</strong>
 </section>
 
-<section class="step" data-y="-300" data-z="400">
+<section class="step" data-y="-100" data-z="400">
   o obecnej panoramie
 </section>
-<section class="step" data-x="500" data-z="400" data-rotate-x="90" data-rotate-y="90">
+<section class="step" data-x="-1000" data-z="400" data-rotate-x="90" data-rotate-y="90">
   <table><tr>
     <td><img src="img/loga/JUnit.jpeg"/></td>
     <td><img src="img/loga/Mockito.jpeg"/></td>
@@ -91,7 +92,7 @@ Co planuję tu zawrzeć:
   </tr></table>
 </section>
 
-<section class="step" data-x="1500" data-y="1500" data-rotate-x="90" data-rotate-y="90">
+<section class="step" data-x="-1500" data-z="800" data-rotate-x="90" data-rotate-y="90">
   Czemu nie ten P...Mock?
   <ol>
     <li>jeszcze jeden classloader</li>
@@ -105,25 +106,25 @@ Co planuję tu zawrzeć:
 </section>
 
 
-<section class="step" data-y="-400" data-z="300"> 
+<section class="step" data-y="-200" data-z="300"> 
   o testach parametryzowalnych <span class="cause">- bo to dobry przykład</span>
 </section>
 
-<section class="step" data-x="-300" data-y="-1200" data-z="300">
+<section class="step" data-x="-1300" data-y="-800" data-z="300">
   @Parameterized
 </section>
-<section class="step" data-x="-300" data-y="-1200" data-z="300" data-rotate-x="90">
+<section class="step" data-x="-1300" data-y="-800" data-z="300" data-rotate-x="90">
   <img src="img/param/JUnit411-Eclipse_run.png"/>
 </section>
-<section class="step" data-y="-1800" data-x="750" data-z="300">
+<section class="step" data-x="-500" data-y="-800" data-z="300">
   @Theory
 </section>
-<section class="step" data-y="-1800" data-x="750" data-z="300" data-rotate-x="90">
+<section class="step" data-x="-500" data-y="-800" data-z="300" data-rotate-x="90">
   <img src="img/param/Theories-Eclipse_run.png"/>
   <hr>
   <img src="img/param/TheoriesFailure.png"/>
 </section>
-<section class="step" data-y="-1800" data-x="750" data-z="300" data-rotate-x="90" data-rotate-y="90">
+<section class="step" data-x="-500" data-y="-800" data-z="300" data-rotate-x="90" data-rotate-y="90">
   <img src="img/param/Theories-AllMeansAll.png"/>
   <hr>
   <img src="img/param/TheoriesAndAssumptions.png"/>
@@ -148,10 +149,10 @@ Co planuję tu zawrzeć:
 </section>
 
 
-<section class="step" data-y="-500" data-z="200"> 
+<section class="step" data-y="-315" data-z="200"> 
   testy systemowe <span class="cause">- Ignore, warstwy</span>
 </section>
-<section class="step" data-y="-600" data-z="100"> 
+<section class="step" data-y="-400" data-z="100"> 
   narzędzia mniej i mało znane
 </section>
 
@@ -164,14 +165,41 @@ Co planuję tu zawrzeć:
   </ol>
 </section>
 
-<section class="step" data-x="-2000" data-y="1800"> 
+
+
+<section id="sureassert" class="step" data-x="-1500" data-y="300"> 
+  <img src="img/loga/sureassertUC.jpeg"/>
+</section>
+<section class="step" data-x="-1500" data-y="400"> 
+  Adnotacje + Eclipse.
+</section>
+
+<section class="step" data-x="-1500" data-y="600">
+  <img src="img/param/SureAssert-Eclipse_run.png"/>
+</section>
+<section class="step" data-x="-1500" data-y="800">
+  <img src="img/param/SureAssert-TestFailed.png"/>
+</section>
+
+<section class="step" data-x="-1500" data-y="1100"> 
   <blockquote>
     <p>Our driving principal is to provide the tooling required to maximize the benefits of both Contract-First Design and Test Driven Development.  Sureassert UC amalgamates these concepts by treating unit tests as part of the declared contract of every method and running them automatically.  Sureassert Exemplars offer true unit testing capability by isolating the functionality of a single method and enforcing its contract.  The tool also provides integration with JUnit, allowing bespoke (coded) tests to be run within the Sureassert testing context; leveraging the tool’s stubbing, coverage reporting and automated execution capabilities.</p>
   </blockquote>
   <cite> - Nathan Dolan, SureAssert UC author</cite>
 </section>
 
-<section class="step" data-y="-700"> 
+<section class="step" data-x="-1500" data-y="1800">
+  <blockquote>
+    It is better to use 
+    <ul>
+      <li>@Test(expected = ...) than to not test exceptions at all.</li>
+      <li>ExpectedException rule than @Test(expected = ...)</li>
+      <li>catch-exception than ExpectedException rule.</li>
+    </ul>
+  </blockquote>
+  <cite><a href="http://www.kaczanowscy.pl/tomek/2013-03/junit-expected-exception-rule-vs-catch-exception">- Tomasz Kaczanowski, "JUnit ExpectedException rule vs Catch-exception"</a></cite>
+</section>
+<section class="step" data-y="-500"> 
   Mockito <span class="cause">- jak nam starczy czasu</span>
 </section>
 
@@ -179,43 +207,42 @@ Co planuję tu zawrzeć:
  
 
 
-<section class="final step" data-y="-1700" data-x="-1500" data-z="200" data-rotate-x="90">
+<section class="final step" data-y="300" data-x="1500" data-z="200" data-rotate-x="90">
   Podsumujmy!
 </section>
-<section class="final step" data-y="-1500" data-x="-1500" data-rotate-x="90">
+<section class="final step" data-y="500" data-x="1500" data-z="100" data-rotate-x="90">
   Michael Feathers, Tomasz Kaczanowski 
 </section>
-<section class="final step" data-y="-1200" data-x="-1500" data-z="-100" data-rotate-x="90">
+<section class="final step" data-y="800" data-x="1500" data-z="-100" data-rotate-x="90">
 <strong class="red">NIE używaj P...Mocka.</strong>
 </section>
-<section class="final step" data-y="-1100" data-x="-1500" data-z="-250" data-rotate-x="90">
+<section class="final step" data-y="900" data-x="1500" data-z="-250" data-rotate-x="90">
   Problem? +4 godziny do estymaty. Lekką ręką.
 </section>
-<section class="final step" data-y="-900" data-x="-1500" data-z="-450" data-rotate-x="90">
+<section class="final step" data-y="1100" data-x="1500" data-z="-450" data-rotate-x="90">
   Poszukaj ODPOWIEDNIEGO narzędzia. 
 </section>
-<section class="final step" data-y="-700" data-x="-1500" data-z="-700" data-rotate-x="90">
+<section class="final step" data-y="1300" data-x="1500" data-z="-700" data-rotate-x="90">
   Parametrycznie: <strong class="red">brzegi</strong>, TestNG, <a href="http://code.google.com/p/junitparams/">JUParams</a>, <a href="https://code.google.com/p/zohhak/">Zohhak</a>...
 </section>
-<section class="final step" data-y="-400" data-x="-1500" data-z="-900" data-rotate-x="90">
+<section class="final step" data-y="1600" data-x="1500" data-z="-900" data-rotate-x="90">
   <a href="http://scannotation.sourceforge.net/">Scannotations</a>, <a href="http://code.google.com/p/reflections/">Reflections</a>, <a href="https://github.com/atteo/classindex">ClassIndex</a>
 </section>
-
-<section class="final step" data-y="-100" data-x="-1500" data-z="-1100" data-rotate-x="90">
+<section class="final step" data-y="1900" data-x="1500" data-z="-1100" data-rotate-x="90">
   Ciągłe testowanie w kontrakcie, <strong class="red">perełka</strong>: <a href="http://www.sureassert.com/">SureAssert</a>. 
 </section>
 
 
 
-<section class="step" data-x="3000" data-z="-1700">
+<section class="step" data-x="2000" data-y="2500">
  <img src="img/MasterIsolatedImages-QuestionMark.jpg"></img> 
 </section>
 
-<section id="me" class="step" data-x="2550" data-y="-75" data-z="-2100" data-rotate-x="-30" data-rotate-y="30" data-scale="0.5"> 
+<section id="me" class="step" data-x="2300" data-y="2500" data-scale="0.5">
  <img id="me" src="img/lafk_pl.png"></img> 
 </section>
 
-<section id="overview" class="step" data-scale="3"/>
+<section id="overview" class="step" data-scale="3.5"/>
 
 <!---
 Footer with progress bar disabled for now
