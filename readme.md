@@ -23,5 +23,5 @@ mock dla voida i inne ciekawe możliwości Mockito itp.
 
 Slajdy
 ======
-Na żywo tutaj: 
+Na żywo tutaj: http://littleancientforestkami.github.io/advanced-testing-Java-preso/Zaawansowane%20Testowanie.html 
 Nawigacja strzałkami.
