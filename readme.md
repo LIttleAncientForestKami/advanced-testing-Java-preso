@@ -1,8 +1,13 @@
-Obietnica
-=========
-Opowiem o narzędziach do testowania bardziej zaawansowanych przypadków. 
+O
+=
+narzędziach do testowania bardziej zaawansowanych przypadków. 
+innych niż JUnit i Mockito (choć o nich będzie wspomniane)
+mniej znanych pomocach w testowaniu.
 
+Nie dogłębnie, a wręcz płytko.
 
+Detale
+------
 Dobre testy parametryzowalne na kilka sposobów, 
 - JUnit
 - Zohhak
@@ -16,6 +21,7 @@ proste testy systemowe,
 mock dla voida i inne ciekawe możliwości Mockito itp.
 
 
-Wyciąg
+Slajdy
 ======
-Prezentacja o ciekawszych narzędziach i ciekawszych możliwościach narzędzi.
+Na żywo tutaj: 
+Nawigacja strzałkami.
